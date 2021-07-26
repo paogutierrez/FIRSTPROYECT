@@ -1,0 +1,98 @@
+<!DOCTYPE html><!--nos indica la version html de nuestro documento-->
+<html lang="es"><!--Etiqueta de apertura - indica el lenguaje de mi pagina HTML -->
+ <head><!--apertura-->
+    <meta charset="UTF-8"><!-- Caracteres epeciales o idiomas diferentes escritos-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> FRUTOS-Pulpas de frutas </title>
+ 
+   <link rel="stylesheet" href="CSS/styles.css">
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="CSS/styles.css">
+   <link rel="stylesheet" href="CSS/styles.css">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+ </head>
+
+<body>
+  
+    <header><!--Aqui defines la cabecera de la pagina web, logo, menu de navegacion, banner-->
+
+      <nav>
+
+            <a href="index.html"><img src="IMAGENES PROYECTO/LOGOsinfnfo (1).png" alt="logo" width="500" height="300"  ></a> 
+                  <ul>
+
+                          <li><a href="">HOME</a></li>
+                          <li><a href="">QUIENES SOMOS</a></li>
+                          <li><a href="">CONTACTO</a></li>
+                 </ul>
+       </nav>
+   </header>
+
+     <section >
+         <video id="slider" autoplay muted loop>
+         <source src="IMAGENES PROYECTO/VIDEO.mp4" type="video/mp4">		
+
+         </video>
+
+          <ul class="navegacion">
+            <li onclick="cargarVideo('IMAGENES PROYECTO/VIDEO.mp4');"></li>
+    
+           </ul>
+
+     </section>
+
+     <a href="https://wa.me/5211234567890?text=Me%20gustaría%20saber%20el%20precio%20del%20coche" class="whatsapp" target="_blank"> 
+        <i class="fa fa-whatsapp whatsapp-icon"></i></a>
+	
+ <hr>
+ 
+  <H1>QUIENES SOMOS</H1>
+
+    <P>FRUTOS es una compañia dedicada a la fabricacion<br>
+     y distribucion de pulpas de fruta 100% naturales, sin conservantes<br>
+     ni azucares añadidas.</P>
+
+
+ <a href="#"><img src="IMAGENES PROYECTO/pixlr-bg-result.png" alt="IMAGENES"></a>
+ <a href="#"><img src="IMAGENES PROYECTO/pixlr-bg-result (1).png" alt="IMAGENES1">
+ <a href="#"></a><img src="IMAGENES PROYECTO/pixlr-bg-result (2).png" alt="IMAGENES2"></a>
+ <a href="#"><img src="IMAGENES PROYECTO/pixlr-bg-result (3).png" alt="IMAGENES3"></a>
+ <a href="#"><img src="IMAGENES PROYECTO/pixlr-bg-result (4).png" alt="IMAGENES4"></a>
+ <a href="#"><img src="IMAGENES PROYECTO/pixlr-bg-result (6).png" alt="IMAGENES6"></a>
+ <a href="#"><img src="IMAGENES PROYECTO/pixlr-bg-result (7).png" alt="IMAGENES7"></a>
+ <a href="#"><img src="IMAGENES PROYECTO/pixlr-bg-result (8).png" alt="IMAGENES8"></a>
+ <a href="#"><img src="IMAGENES PROYECTO/pixlr-bg-result (10).png" alt="IMAGENES10"></a>
+ </div>
+
+ 
+ 
+ <form action="">
+    <p> 
+       <label for="Nombre">Nombre Completo:</label>
+      <input type="text" name="Ingresa nombre completo"placeholder: Escribe tu nombre>
+       <label for="Correo Electronico">Correo Electronico</label>
+      <input type="text" name="Ingresa correo electronico"placeholder: Escribe tu nombre> 
+       <label for="Telefono">Telefono</label>
+      <input type="number" name="Ingresa Telefono"placeholder: Escribe tu nombre>
+      
+      <input type="submit" value="ENVIAR">
+
+    </p>
+
+</form>
+
+    <hr>
+  <footer>copyrigth 2021-Andrea Gutierrez</footer>
+      
+</body><!-- cierre-->
+ <script type="text/javascript">
+	function cargarVideo(url){
+		document.getElementById('slider').src=url;
+	}	
+ </script>
+ <script src="main.js"></script>
+ 
+
+</html>
